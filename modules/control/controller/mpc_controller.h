@@ -26,7 +26,7 @@
 #include <string>
 
 #include "Eigen/Core"
-#include "modules/common/configs/proto/vehicle_config.pb.h"
+#include "modules/common_msgs/config_msgs/vehicle_config.pb.h"
 #include "modules/common/filters/digital_filter.h"
 #include "modules/common/filters/digital_filter_coefficients.h"
 #include "modules/common/filters/mean_filter.h"
@@ -36,7 +36,7 @@
 #include "modules/control/common/trajectory_analyzer.h"
 #include "modules/control/controller/controller.h"
 
-/**
+/** I want to comment on this source code. 
  * @namespace apollo::control
  * @brief apollo::control
  */
@@ -45,7 +45,7 @@ namespace control {
 
 /**
  * @class MPCController
- *
+ * 
  * @brief MPCController, combined lateral and longitudinal controllers
  */
 class MPCController : public Controller {
